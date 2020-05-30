@@ -1,0 +1,741 @@
+.style{
+  font-family: 'Indie Flower', cursive;
+}
+.resize{
+  width:100%;
+  height:250px;
+background: url(images/alice3.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+min-width: 0px;
+background-position:center;
+
+}
+
+body{
+  padding: 0px;
+  margin:0px;
+}
+.check{
+  padding: 0px;
+  margin:0px;
+  height:220px;
+}
+
+.item{
+
+color:antiquewhite;
+background: grey;
+text-decoration: none;
+font-size: 16px;
+padding: 0px;
+text-align: center;
+border-right:1px solid darkgrey;
+}
+
+.item:hover{
+  background-color: black;
+}
+
+
+.set{
+  width:40px;
+  height:40px;
+  margin-right:0px;
+}
+
+.set-2{
+  width:40px;
+  height:40px;
+}
+
+.fancy{
+  font-family: 'Tangerine', serif;
+        font-size: 78px;
+        color:#ddd1a3;
+        line-height: 16px;
+}
+.fancy-2{
+  font-family: 'Tangerine', serif;
+        color:grey;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        font-size: 60px;
+        text-align: center;
+        color:#ddd1a3;
+}
+.til{
+  left:50px;
+position: absolute;
+padding: 0px;
+max-width:100%;
+
+}
+
+
+.see{
+
+background:rgba(255, 255, 0,0.4);
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+padding:20px;
+max-width:430px;
+font-family: 'Cinzel', serif;
+color:white;
+font-weight: bold;
+
+}
+
+
+.zone{
+  padding-top:220px;
+}
+
+
+
+
+
+
+.yu{
+  color:blue;
+
+  line-height:0px;
+  margin-top:0px;
+  /*font-family: 'Zhi Mang Xing', cursive;*/
+  margin-left:5px;
+  font-family: 'Jim Nightshade', cursive;
+
+}
+
+
+
+
+
+
+.kol{
+
+  font-size: 100px;
+  height:260px;
+max-width:420px;
+min-width:0px;
+min-height:0px;
+
+max-height:480px;
+/*margin-bottom: 40px;*/
+line-height: 80px;
+margin-top:100px;
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+margin-bottom:0px;
+padding: 20px;
+margin-top: 250px;
+margin-left: 20px;
+position: relative;
+padding-bottom:20px;
+display: none;
+}
+.display-3{
+  line-height:70px;
+}
+
+.collapse{
+display: none;
+}
+
+.select{
+  padding-top:220px;
+  max-width:100%;
+display: none;
+}
+
+.ok{
+  background:rgba(165, 205, 80,0.4);
+  text-decoration: none;
+  color:white;
+}
+
+
+.pi{
+  color:white;
+}
+
+.pi:hover{
+  color:pink;
+  text-decoration: none;
+}
+
+
+
+.new{
+  line-height:0px;
+  font-family: 'Jim Nightshade', cursive;
+color: aliceblue;
+margin-left: 20px;
+line-height: 30px;
+}
+
+
+.page-link{
+
+padding:12px 22px;
+font-size: 18px;
+color:blue;
+
+}
+
+
+
+
+.bounce {
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+/* Scroll down indicator (bouncing) */
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px); } }
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px); } }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+body{
+  background:lightgrey;
+}
+
+
+
+.popular{
+  background:white;
+  font-family: arial;
+  padding:20px;
+  font-family: sans-serif;
+font-weight:bold;
+border:1px solid pink;
+border-radius: 4px;
+font-family: 'IM Fell Great Primer SC', serif;
+letter-spacing: 0.1px;
+
+}
+.fix{
+  width:100%;
+}
+.post{
+  background: white;
+  margin-bottom:40px;
+  border-radius: 4px;
+  border:1px solid pink;
+
+}
+.date{
+  text-align:center;
+  font-size:38px;
+  font-family: 'oswald', sans-serif;
+color:darkcyan;
+
+}
+
+.month{
+  text-align:center;
+  color:black;
+  font-weight: bold;
+  font-family: 'IM Fell Great Primer SC', serif;
+
+
+}
+
+.year{
+  text-align:center;
+color:darkcyan;
+text-shadow: 0.1px 0.1px 0.1px black;
+
+}
+
+
+.voot{
+  padding:18px;
+}
+
+
+.fix-3{
+  padding:7px;
+}
+
+
+.join{
+  padding:20px 15px;
+  font-family: arial;
+  line-height:27px;
+  letter-spacing:1px;
+}
+
+
+.checkpost{
+  margin-left:15px;
+  margin-bottom: 30px;
+}
+
+.fixing{
+  width:100%;
+  height:350px;
+
+}
+
+
+
+
+.change-1{
+  margin-left:15px;
+  color:grey;
+}
+.change-2{
+  margin-left:15px;
+  color:grey;
+}
+.pad{
+  padding-top: 10px;
+  padding-bottom:10px;
+  border-top: 0.1px solid grey;
+
+}
+.fix-2
+{
+
+padding:12px;
+border-left:1px solid grey;
+font-family: sans-serif;
+/*font-family: 'Cinzel Decorative', cursive;*/
+font-family: 'Cherry Swash', cursive;
+
+font-family: 'Iceberg', cursive;
+font-family: 'Supermercado One', cursive;
+
+
+
+}
+.kp{
+  padding:0px;
+  margin-bottom:40px;
+  border:1px solid pink;
+}
+
+.size{
+  font-size:18px;
+}
+
+.recheck{
+
+padding:50px 18px;
+font-family: 'Londrina Sketch', cursive;
+font-family: 'Macondo', cursive;
+color:grey;
+}
+
+.hoop{
+color:black;
+
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: red;
+}
+
+
+
+
+.back{
+  background-color: white;
+  margin-bottom:40px;
+  border-radius:4px;
+  border:1px solid pink;
+}
+
+.heading{
+  color:darkcyan;
+  font-family: sans-serif;
+  opacity:0.7;
+  font-family: 'Supermercado One', cursive;
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-shadow: 0.8px 0.8px 0.8px black;
+
+
+}
+.fixed{
+  min-width:100%;
+
+}
+.merging{
+  color:dodgerblue;
+  font-family: 'IM Fell Great Primer SC', serif;
+  font-size:28px;
+  font-family: 'Tangerine', serif;
+}
+
+.up{
+  color:green;
+  opacity:0.7;
+}
+
+.her{
+
+padding-left: 120px;
+padding-right:120px;
+
+}
+
+.post{
+  border:1px solid lightblue;
+  padding-left: 0px;
+  padding-right: 1px;
+}
+
+
+.ham{
+  font-family:sans-serif;
+  font-size: 16px;
+}
+.ku{
+  margin-left:-20px;
+}
+
+
+.popular .row .col-4 img{
+
+width:100%;
+height:auto;
+}
+
+    .show{
+      text-shadow:2px 2px 2px black;
+    }
+
+.show2{
+
+  text-shadow:0.2px 0.2px 0.2px black;
+color:aqua;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bree Serif', serif;
+}
+
+
+
+
+
+
+.tr{
+  text-shadow:0px 0px 0px black;
+
+}
+
+
+
+
+.mg{
+  font-size:12px;
+  font-family:arial;
+}
+
+/*section{
+padding-left:60px;
+padding-right:60px;
+
+}
+*/
+.gap2{
+  margin-bottom:30px;
+}
+.gap{
+  margin-bottom:40px;
+}
+
+.col-xs-4 img{width:100%;}
+.col-xs-4 {float:left;}
+
+.row{width:100%;padding:0px;margin:0px;}
+
+
+@media screen and (max-width:1345px)
+{
+
+.her{
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px)
+{
+
+
+  .her{
+
+  padding-left: 10px;
+  padding-right:10px;
+
+  }
+
+
+
+
+}
+
+
+
+.arrow-bounce{
+  display:none;
+}
+
+
+
+
+
+@media screen and (max-width:1000px)
+{
+
+
+  .resize{
+    width:100%;
+    height:250px;
+    background: url('images/green.jpg');
+
+  background-size:cover;
+  min-width: 0px;
+  background-repeat: no-repeat;
+
+  }
+
+
+
+  .her{
+
+  padding-left: 10px;
+  padding-right:10px;
+
+  }
+
+
+
+
+
+
+
+.arrow-bounce{
+  display:none;
+}
+  .voot{
+
+  padding-top:8px;
+  }
+
+
+
+.fixed{
+  margin-top:15px;
+
+}
+
+.show{
+  text-shadow:2px 2px 2px black;
+}
+
+
+.collapse{
+  display:none;
+}
+
+
+.kol{
+  display:none;
+}
+
+
+.select{
+  display:none;
+}
+
+
+
+
+
+
+.re{padding: 10px;}
+
+
+
+
+}
+
+.re{
+  padding: 20px;
+}
+
+
+@media screen and (max-width:991px)
+{
+
+
+.her{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
+
+.re{
+  padding: 50px;
+}
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width:729px)
+{
+
+  .re{
+    padding: 30px;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width:640px)
+{
+  .til{
+  position: relative;
+  padding: 0px;
+left:0px;
+margin-left:auto;
+margin-right:auto;
+padding:20px;
+width:100%;
+  display:block;
+  height:auto;
+  }
+.zone{
+  padding-top:70px;
+}
+
+.her{
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+.re{
+  padding: 20px;
+}
+
+
+
+.kol{
+  margin-top:30px;
+  margin-left: 0px;
+}
+
+
+
+
+
+
+.voot{
+  margin-top: 0px;
+}
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:575px)  {
+
+
+  .voot{
+
+
+  height: 180px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  margin-bottom: 40px;
+  }
+  .fixed{padding: 0px;border:1px groove grey;}
+
+  .fix-2{
+    text-align: center;
+    border: 0px solid grey;
+    padding-bottom: 0px;
+  }
+
+
+}

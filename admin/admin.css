@@ -1,0 +1,174 @@
+
+
+.list-group .list-group-items:hover
+{
+background:#E9ECEF;
+
+}
+
+
+.hov:hover
+{
+color:violet;  
+  
+}
+
+
+
+.profile
+{
+-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width:1380px)
+{
+
+.jio
+{
+display:none;
+
+}
+
+
+
+
+}
+
+
+.in
+{
+  background-color: #3ba9e8;
+  height:70px;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  padding: 0px;
+  overflow: hidden;
+  color:white;
+}
+
+
+
+.table{
+  min-width:-20px;
+}
+
+
+
+@media screen and (max-width:510px) {
+
+.fir
+{
+display: none;
+
+}
+
+}
+
+@media screen and (max-width:680px)  {
+
+  .rio
+  {
+  display:none;
+
+  }
+
+
+
+
+
+  .div.card.text-white.koop.mb-3
+  {
+  max-width:120%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+
+.col-6{
+  background-color: black;
+}
+.table
+{
+  width:100%;
+
+}
+.see
+{
+width:66%;
+
+}
+
+
+}
+
+/*@media screen and (max-width:1920px)  {
+
+
+
+  .div.card.text-white.koop.mb-3
+  {
+  max-width:20rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+
+
+
+}*/
+html,body{
+
+height:100vh;
+min-height: 100vh !important;
+   height: 100vh;
+   position:relative;
+
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.show{
+  display:none;
+}
+
+@media screen and (max-width:581px)
+{
+
+.dim{
+  display:none;
+}
+
+.show{
+  display:block;
+
+}
+
+}
+@media screen and (max-width:575px)
+{
+  .press{
+    margin-left:65px;
+  }
+    
+}
